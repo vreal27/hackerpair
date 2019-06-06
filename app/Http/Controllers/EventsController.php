@@ -34,4 +34,10 @@ class EventsController extends Controller
     	return view('welcome.index')
     	->withEvents($events);
     }
+
+    public function index() {
+
+        return view('events.index');
+        
+    }
 }
