@@ -5,7 +5,7 @@
     <h1>Hackerpair Helps You Build Stuff Faster.</h1>
 
     <p>
-        Learn, teach, hack, and make friends with developers in your city.
+        Learn, teach, hack, and make friends with developers in your city!
     </p>
     
 

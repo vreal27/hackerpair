@@ -6,8 +6,14 @@ use Illuminate\Http\Request;
 
 class WelcomeController extends Controller
 {
-    function index()
-    {
-    	return view('welcome.welcome');
+    public function index() {
+    	$events = [
+    		'Laravel Hacking and Coffee',
+    		'IoT with Raspberry Pi',
+    		'Free Vue.Js Lessons'
+    	];
+
+    	return view('welcome.index')
+    	->withEvents($events);
     }
 }
