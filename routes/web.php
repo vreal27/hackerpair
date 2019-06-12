@@ -21,9 +21,10 @@ Route::view('about/tos', 'about.tos')->name('about.tos');
 
 Route::view('contact', 'contact.index')->name('contact.index');
 
-Route::get('meetups/{id}', 'EventsController@show')->name('events.show');
+Route::get('events', 'EventsController@index')->name('events.index');
+Route::get('events/{id}', 'EventsController@show')->name('events.show');
 Route::get('events/category/{category}/{subcategory?}', 'EventsController@category');
-Route::get('events', 'EventsController@index');
+
 
 Route::get('languages', 'LanguagesController@index')->name('languages.index');
 Route::get('locations', 'LocationsController@index')->name('locations.index');

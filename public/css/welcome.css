@@ -1,0 +1,17 @@
+#WelcomeBanner {
+    border: solid 1px white; 
+    text-align: left;  
+    padding: 30px; 
+}
+
+#HomeTitle {
+    color: rgb(247, 197, 67); 
+    font-weight: bolder; 
+    font-family: "Helvetica", sans-serif;
+  }
+
+#HomeSub {
+    font-weight: bold;
+    font-size: 25px; 
+    font-family: "Helvetica", sans-serif;
+}

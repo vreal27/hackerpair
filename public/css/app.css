@@ -70,9 +70,9 @@ body {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #212529;
+  color: #ffffff;
   text-align: left;
-  background-color: #f5f8fa;
+  background-color: gray; 
 }
 
 [tabindex="-1"]:focus {
@@ -99,6 +99,8 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+
 
 abbr[title],
 abbr[data-original-title] {
@@ -4390,6 +4392,7 @@ input[type=button].btn-block {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  color: white;
 }
 
 .navbar-nav .dropdown-menu {
@@ -4414,7 +4417,7 @@ input[type=button].btn-block {
   font-size: 1.125rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 1px solid white;
   border-radius: 0.25rem;
 }
 
@@ -4433,6 +4436,7 @@ input[type=button].btn-block {
   background-size: 100% 100%;
 }
 
+
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
@@ -4446,6 +4450,14 @@ input[type=button].btn-block {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
+
+  .logo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+}
 
   .navbar-expand-sm .navbar-nav {
     flex-direction: row;

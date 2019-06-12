@@ -13,7 +13,7 @@ class WelcomeController extends Controller
     		'Free Vue.Js Lessons'
     	];
 
-    	return view('welcome.index')
+    	return view('welcome.welcome')
     	->withEvents($events);
     }
 }
